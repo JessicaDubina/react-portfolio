@@ -1,0 +1,25 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "## Description Portfolio of my web apps and projects. Includes links to my github, resume, and how to contact.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "bootstrap": "^5.2.3",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.5"
+  }
+}
