@@ -51,6 +51,7 @@ export default function Contact() {
             type="text"
             placeholder='Enter Name'
           />
+          <br></br>
           <input
             value={email}
             name="email"
@@ -58,6 +59,7 @@ export default function Contact() {
             type="email"
             placeholder='Enter your email address'
           />
+          <br></br>
           <input
             value={message}
             name="message"
@@ -65,6 +67,7 @@ export default function Contact() {
             type="text"
             placeholder='Send me a message'
           />
+          <br></br>
           <button type="submit">Submit</button>
         </form>
         {errorMessage && (

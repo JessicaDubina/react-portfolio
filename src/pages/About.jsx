@@ -1,18 +1,12 @@
+import ProfilePic from "../components/ProfilePic";
+
 export default function About() {
     return (
       <div>
         <h1>About Me</h1>
+        <ProfilePic />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
+        My whole life I have been obsessed with puzzles. As a child, I would take on large jigsaw puzzles. I had a team of friends that would work on extreme challenges with me - the largest we completed was 18,000 pieces. In college, I turned to Sudoku, where I quickly became bored with the standard 9x9 sudoku challenges and sought out a "super-sodoku" of 25x25. These puzzles required additional tools to complete, so I created a "soduko-solver" using Excel that would help me solve them. Coding is the next puzzling challenge I am taking on, and I am excited about the road ahead.
         </p>
       </div>
     );
