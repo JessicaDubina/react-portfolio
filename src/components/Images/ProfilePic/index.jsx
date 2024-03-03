@@ -1,4 +1,4 @@
-import profpic from '../../assets/profpic.jpg'
+import profpic from '../../../assets/profpic.jpg'
 
 export default function ProfilePic() {
     return (

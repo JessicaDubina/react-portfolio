@@ -1,4 +1,4 @@
-import ProfilePic from "../components/ProfilePic";
+import ProfilePic from "../components/Images/ProfilePic";
 
 export default function About() {
     return (
