@@ -1,19 +1,18 @@
 import { Link } from 'react-router-dom';
 import Image from '../Images/Image';
 
-function Project() {
+
+export default function Project({project}) {
     return(
         <div>
-            <Image />
-            <h1>Project title</h1>
+            <h1>{project.title}</h1>
             <div>
-            <Link to="#" className="project-link">Deployed App</Link>
+            <Link to={project.deployed} className="project-link">Deployed App</Link>
             </div>
             <div>
-            <Link to="#" className="project-link">Github</Link>
+            <Link to={project.github} className="project-link">Github</Link>
             </div>
         </div>
     );
 }
 
-export default Project

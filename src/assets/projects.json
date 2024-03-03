@@ -1,0 +1,38 @@
+[
+    {
+        "projectId": 1,
+        "title": "Chuck Yeezy Meme Generator",
+        "deployed": "https://jessicadubina.github.io/ChuckYe-Meme-Generator/",
+        "github": "https://github.com/JessicaDubina/ChuckYe-Meme-Generator"
+    },
+    {
+        "projectId": 2,
+        "title": "Test",
+        "deployed": "test",
+        "github": "test"
+    },
+    {
+        "projectId": 3,
+        "title": "Test",
+        "deployed": "test",
+        "github": "test"
+    },
+    {
+        "projectId": 4,
+        "title": "Test",
+        "deployed": "test",
+        "github": "test"
+    },
+    {
+        "projectId": 5,
+        "title": "Test",
+        "deployed": "test",
+        "github": "test"
+    },
+    {
+        "projectId": 6,
+        "title": "Test",
+        "deployed": "test",
+        "github": "test"
+    }
+]
