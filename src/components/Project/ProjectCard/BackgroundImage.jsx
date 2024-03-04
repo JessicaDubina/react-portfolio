@@ -1,7 +1,8 @@
 const styles = {
     img: {
         height: "auto",
-        width: "500px"
+        width: "100%",
+        resizeMode: "cover"
     },
   };
 

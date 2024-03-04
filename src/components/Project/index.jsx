@@ -1,27 +1,18 @@
 import { Link } from 'react-router-dom';
 import ProjectHeader from './ProjectCard/ProjectHeader';
 import ProjectFooter from './ProjectCard/ProjectFooter';
-import BackgroundImage from './ProjectCard/BackgroundImage';
+import ProjectBody from './ProjectCard/ProjectBody';
 
 export default function Project({project}) {
-    let image = project.image;
 
     return(
-            <div className='card col-md-5 my-3 mx-auto border p-0 shadow' style={{
+            <div className='card col-md-5 my-3 mx-auto border p-2 shadow' style={{
                 height: "auto",
                 minHeight: "20rem"
             }}>
-            {/* <BackgroundImage image={project.image}/> */}
-                <div className="card-body" style={{
-                    backgroundImage: `url(${image})`,
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "40rem"
-                }}>
-            
-                <ProjectHeader project={project}/>
-            </div>
-            <ProjectFooter project={project}/>
+                    <ProjectHeader project={project}/> 
+                    <ProjectBody image={project.image} bgColor={project.bodyBackground}/>
+                    <ProjectFooter project={project}/>
             </div>
     );
 }

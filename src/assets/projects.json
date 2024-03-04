@@ -1,44 +1,50 @@
 [
     {
         "projectId": 1,
-        "title": "Chuck Yeezy Meme Generator",
-        "deployed": "https://jessicadubina.github.io/ChuckYe-Meme-Generator/",
-        "github": "https://github.com/JessicaDubina/ChuckYe-Meme-Generator",
-        "image": "../../src/assets/project-pics/chuckye-site-2.png"
+        "title": "Gnome Rouges",
+        "deployed": "testhttps://gnome-rogues-90a0baf68228.herokuapp.com/",
+        "github": "https://github.com/mcgintyb14/Gnome-Rogues",
+        "image": "../../src/assets/project-pics/gnome-rouges.png",
+        "bodyBackground": "rgb(186, 222, 235)"
     },
     {
         "projectId": 2,
-        "title": "Test",
-        "deployed": "test",
-        "github": "test",
-        "image": "../../src/assets/project-pics/coming-soon.jpeg"
+        "title": "Chuck Yeezy Meme Generator",
+        "deployed": "https://jessicadubina.github.io/ChuckYe-Meme-Generator/",
+        "github": "https://github.com/JessicaDubina/ChuckYe-Meme-Generator",
+        "image": "../../src/assets/project-pics/chuckye-site-2.png",
+        "bodyBackground": "white"
     },
     {
         "projectId": 3,
-        "title": "Test",
-        "deployed": "test",
-        "github": "test",
-        "image": "../../src/assets/project-pics/coming-soon.jpeg"
+        "title": "Note Taking App",
+        "deployed": "https://jessnotetaker-802871438d82.herokuapp.com/",
+        "github": "https://github.com/JessicaDubina/note-taker",
+        "image": "../../src/assets/project-pics/note-taker.png",
+        "bodyBackground": "white"
     },
     {
         "projectId": 4,
-        "title": "Test",
-        "deployed": "test",
-        "github": "test",
-        "image": "../../src/assets/project-pics/coming-soon.jpeg"
+        "title": "Weather Dashboard",
+        "deployed": "https://jessicadubina.github.io/weather-dashboard/",
+        "github": "https://github.com/JessicaDubina/weather-dashboard",
+        "image": "../../src/assets/project-pics/weather.png",
+        "bodyBackground": "white"
     },
     {
         "projectId": 5,
-        "title": "Test",
-        "deployed": "test",
-        "github": "test",
-        "image": "../../src/assets/project-pics/coming-soon.jpeg"
+        "title": "Workday Planner",
+        "deployed": "https://jessicadubina.github.io/work-day-scheduler/",
+        "github": "https://github.com/JessicaDubina/work-day-scheduler",
+        "image": "../../src/assets/project-pics/scheduler.png",
+        "bodyBackground": "white"
     },
     {
         "projectId": 6,
-        "title": "Test",
-        "deployed": "test",
-        "github": "test",
-        "image": "../../src/assets/project-pics/coming-soon.jpeg"
+        "title": "Password Generator",
+        "deployed": "https://jessicadubina.github.io/password-generator/",
+        "github": "https://github.com/JessicaDubina/password-generator",
+        "image": "../../src/assets/project-pics/password.png",
+        "bodyBackground": "white"
     }
 ]
