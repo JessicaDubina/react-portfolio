@@ -1,18 +1,28 @@
 import { Link } from 'react-router-dom';
-import Image from '../Images/Image';
-
+import ProjectHeader from './ProjectCard/ProjectHeader';
+import ProjectFooter from './ProjectCard/ProjectFooter';
+import BackgroundImage from './ProjectCard/BackgroundImage';
 
 export default function Project({project}) {
+    let image = project.image;
+
     return(
-        <div>
-            <h1>{project.title}</h1>
-            <div>
-            <Link to={project.deployed} className="project-link">Deployed App</Link>
+            <div className='card col-md-5 my-3 mx-auto border p-0 shadow' style={{
+                height: "auto",
+                minHeight: "20rem"
+            }}>
+            {/* <BackgroundImage image={project.image}/> */}
+                <div className="card-body" style={{
+                    backgroundImage: `url(${image})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    backgroundSize: "40rem"
+                }}>
+            
+                <ProjectHeader project={project}/>
             </div>
-            <div>
-            <Link to={project.github} className="project-link">Github</Link>
+            <ProjectFooter project={project}/>
             </div>
-        </div>
     );
 }
 
