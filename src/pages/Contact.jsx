@@ -45,6 +45,13 @@ export default function Contact() {
     },
     form: {
       fontSize: 'calc(1rem + .5vw)'
+    },
+    formBody: {
+      fontSize: 'calc(.5rem + .5vw)',
+    },
+    button: {
+      backgroundColor: '#2C505E', 
+      color: 'white'
     }
   } 
 
@@ -52,14 +59,15 @@ export default function Contact() {
       <div>
         <h1 className="d-flex justify-content-center" style={styles.font}>Contact Me</h1>
         <div className='card col-md-5 my-3 mx-auto border p-2 shadow' style={styles.form}>
-          <p className='card-header'>Enter details below to contact me</p>
-          <form className="form card-body" onSubmit={handleFormSubmit}>
+          <h2 className='card-header'>Enter details below to contact me</h2>
+          <form className="form card-body" style={styles.formBody} onSubmit={handleFormSubmit}>
             <input
               value={userName}
               name="userName"
               onChange={handleInputChange}
               type="text"
               placeholder='Enter Name'
+              className='w-50 m-1'
             />
             <br></br>
             <input
@@ -68,6 +76,7 @@ export default function Contact() {
               onChange={handleInputChange}
               type="email"
               placeholder='Enter your email address'
+              className='w-50 m-1'
             />
             <br></br>
             <input
@@ -76,9 +85,10 @@ export default function Contact() {
               onChange={handleInputChange}
               type="text"
               placeholder='Send me a message'
+              className='w-50 m-1'
             />
             <br></br>
-            <button type="submit">Submit</button>
+            <button type="submit" className='px-2 m-1' style={styles.button}>Submit</button>
           </form>
           {errorMessage && (
             <div className='card-footer'>

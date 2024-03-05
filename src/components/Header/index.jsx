@@ -12,7 +12,7 @@ const styles = {
 
 const Header = () => {
     return (
-      <header className="text-light mb-4 py-3 flex-row align-center" style={styles.headerbar}>
+      <header className="text-light py-3 flex-row align-center" style={styles.headerbar}>
         <div className="container flex-row justify-space-between-lg justify-center align-center">
           <h1 className="m-0 align-self-end" style={styles.font}>Jessica Dubina</h1>
           <Nav />

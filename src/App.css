@@ -32,5 +32,14 @@
 
   Outlet {
     margin-bottom: 30px;
+    margin-top: 40px;
   }
   
+  .background-container {
+    background-image: url('../src/assets/light_grey_dots_background.jpg');
+    z-index: -1;
+    background-size: 20%;
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 100vh;
+  }

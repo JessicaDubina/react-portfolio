@@ -23,7 +23,7 @@ export default function About() {
           <div className="container"style={styles.size}>
             <ProfilePic />
           </div>
-          <p className="px-3 mx-4 shadow border rounded" style={styles.paragraph}>
+          <p className="px-3 mx-4 shadow border rounded bg-light" style={styles.paragraph}>
               My whole life I have been obsessed with puzzles. As a child, I would take on large jigsaw puzzles. I had a team of friends that would work on extreme challenges with me - the largest we completed was 18,000 pieces. 
               <br></br>
               <br></br>
