@@ -42,45 +42,50 @@ export default function Contact() {
   const styles = {
     font: {
       fontSize: 'calc(1.75rem + 1.25vw)'
+    },
+    form: {
+      fontSize: 'calc(1rem + .5vw)'
     }
   } 
 
   return (
       <div>
         <h1 className="d-flex justify-content-center" style={styles.font}>Contact Me</h1>
-        <p>Enter details below to contact me</p>
-        <form className="form" onSubmit={handleFormSubmit}>
-          <input
-            value={userName}
-            name="userName"
-            onChange={handleInputChange}
-            type="text"
-            placeholder='Enter Name'
-          />
-          <br></br>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder='Enter your email address'
-          />
-          <br></br>
-          <input
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder='Send me a message'
-          />
-          <br></br>
-          <button type="submit">Submit</button>
-        </form>
-        {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
-      )}
+        <div className='card col-md-5 my-3 mx-auto border p-2 shadow' style={styles.form}>
+          <p className='card-header'>Enter details below to contact me</p>
+          <form className="form card-body" onSubmit={handleFormSubmit}>
+            <input
+              value={userName}
+              name="userName"
+              onChange={handleInputChange}
+              type="text"
+              placeholder='Enter Name'
+            />
+            <br></br>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="email"
+              placeholder='Enter your email address'
+            />
+            <br></br>
+            <input
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="text"
+              placeholder='Send me a message'
+            />
+            <br></br>
+            <button type="submit">Submit</button>
+          </form>
+          {errorMessage && (
+            <div className='card-footer'>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+      </div>
       </div>
     );
   }
