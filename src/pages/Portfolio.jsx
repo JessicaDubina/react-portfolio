@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Project from "../components/Project";
-import projectsData from "../assets/projects.json"
+import projectsData from "../assets/projects.js"
 
 
 export default function Portfolio() {

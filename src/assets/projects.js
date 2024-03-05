@@ -1,10 +1,19 @@
+import chuckye from './chuckye-site-2.png'
+import gnome from './gnome-rouges.png'
+import password from './password.png'
+import note from './note-taker.png'
+import weather from './weather.png'
+import scheduler from './scheduler.png'
+
+const projectsData = 
+
 [
     {
         "projectId": 1,
         "title": "Gnome Rouges",
         "deployed": "testhttps://gnome-rogues-90a0baf68228.herokuapp.com/",
         "github": "https://github.com/mcgintyb14/Gnome-Rogues",
-        "image": "../../assets/gnome-rouges.png",
+        "image": gnome,
         "bodyBackground": "rgb(186, 222, 235)"
     },
     {
@@ -12,7 +21,7 @@
         "title": "ChuckYeezy Meme Generator",
         "deployed": "https://jessicadubina.github.io/ChuckYe-Meme-Generator/",
         "github": "https://github.com/JessicaDubina/ChuckYe-Meme-Generator",
-        "image": "../../../src/assets/chuckye-site-2.png",
+        "image": chuckye,
         "bodyBackground": "white"
     },
     {
@@ -20,7 +29,7 @@
         "title": "Note Taking App",
         "deployed": "https://jessnotetaker-802871438d82.herokuapp.com/",
         "github": "https://github.com/JessicaDubina/note-taker",
-        "image": "../../src/assets/note-taker.png",
+        "image": note,
         "bodyBackground": "white"
     },
     {
@@ -28,7 +37,7 @@
         "title": "Weather Dashboard",
         "deployed": "https://jessicadubina.github.io/weather-dashboard/",
         "github": "https://github.com/JessicaDubina/weather-dashboard",
-        "image": "../../src/assets/weather.png",
+        "image": weather,
         "bodyBackground": "white"
     },
     {
@@ -36,7 +45,7 @@
         "title": "Workday Planner",
         "deployed": "https://jessicadubina.github.io/work-day-scheduler/",
         "github": "https://github.com/JessicaDubina/work-day-scheduler",
-        "image": "../../src/assets/scheduler.png",
+        "image": scheduler,
         "bodyBackground": "white"
     },
     {
@@ -44,7 +53,9 @@
         "title": "Password Generator",
         "deployed": "https://jessicadubina.github.io/password-generator/",
         "github": "https://github.com/JessicaDubina/password-generator",
-        "image": "../../src/assets/password.png",
+        "image": password,
         "bodyBackground": "white"
     }
 ]
+
+export default projectsData;
