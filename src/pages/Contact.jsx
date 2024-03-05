@@ -39,9 +39,15 @@ export default function Contact() {
     }
   };
 
+  const styles = {
+    font: {
+      fontSize: 'calc(1.75rem + 1.25vw)'
+    }
+  } 
+
   return (
       <div>
-        <h1>Contact Me</h1>
+        <h1 className="d-flex justify-content-center" style={styles.font}>Contact Me</h1>
         <p>Enter details below to contact me</p>
         <form className="form" onSubmit={handleFormSubmit}>
           <input
