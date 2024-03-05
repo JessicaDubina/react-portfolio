@@ -29,4 +29,8 @@
     font-weight: 700;
     font-style: italic;
   }
+
+  Outlet {
+    margin-bottom: 30px;
+  }
   

@@ -7,7 +7,7 @@ export default function Resume() {
       fontSize: 'calc(1.75rem + 1.25vw)'
     },
     pdf: {
-   
+      marginBottom: '20px',
       height: '800px'
     }
   }  
@@ -15,7 +15,7 @@ export default function Resume() {
   return (
       <div>
         <h1 className="d-flex justify-content-center" style={styles.font}>Resume</h1>
-        <div className='card col-md-8 my-3 mx-auto border p-2 shadow' style={styles.pdf}>
+        <div className='card col-md-8 my-3 mb-4 mx-auto border p-2 shadow' style={styles.pdf}>
           <iframe src={resume} style={styles.pdf}/>
         </div>
       </div>

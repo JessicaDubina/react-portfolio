@@ -1,7 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Nav() {
-  const linkStyle = { border: '1px black', padding: '5px' };
   const currentPage = useLocation().pathname;
 
   return (
